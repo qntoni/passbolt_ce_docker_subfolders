@@ -1,0 +1,4 @@
+CREATE DATABASE passbolt2;
+CREATE USER 'passbolt2'@'%' IDENTIFIED BY 'P4ssb0lt2';
+GRANT ALL PRIVILEGES ON passbolt2.* TO 'passbolt2'@'%';
+FLUSH PRIVILEGES;

@@ -42,7 +42,7 @@ The command section of each container defines a startup script that waits for th
 You'll need to create as many admin as passbolt containers, `passbolt` and `passbolt2` are the provided containers. Please, change the container name following this example.
 
 ```
-docker-compose -f docker-compose-pro.yaml exec passbolt su -m -c "/usr/share/php/passbolt/bin/cake \
+docker-compose -f docker-compose-ce.yaml exec passbolt su -m -c "/usr/share/php/passbolt/bin/cake \
   passbolt register_user \
   -u your@email \
   -f your_name \
